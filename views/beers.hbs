@@ -1,0 +1,13 @@
+<ul>
+  {{#each beers}}
+  {{#with this}}
+    <li>
+     <img src='{{image_url}}' width="125"/>
+        {{name}} 
+        {{description}} 
+        {{tagline}}
+
+         </li>
+{{/with}}
+  {{/each}}
+</ul>
